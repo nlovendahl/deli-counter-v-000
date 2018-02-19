@@ -23,7 +23,7 @@ def now_serving(deli)
   else
     deli.each do |name|
       name = deli.first
-      deli.shift(name)
+      deli.delete(name)
       puts "Currently serving #{name}."
     end
   end
