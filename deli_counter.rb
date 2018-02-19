@@ -8,6 +8,7 @@ def line(deli)
     current_line << "#{index}. #{name}"
     index += 1
   end
+  current_line
   puts "The line is currently: #{current_line}"
 end
 end
