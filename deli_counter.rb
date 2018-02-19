@@ -5,7 +5,7 @@ def line(deli)
   deli.each do |name|
     current_line = []
     index = 1
-    line_list << "#{index}. #{name}"
+    current_line << "#{index}. #{name}"
     index += 1
   end
 end
