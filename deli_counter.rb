@@ -5,7 +5,7 @@ def line(deli)
     line = []
     count = 0
     while count < deli.length
-      line << " #{count + 1}. #{deli[count]}"
+      line << "#{count + 1}. #{deli[count]}"
       count += 1
     end
     puts "The line is currently: #{line.join(" ")}"
