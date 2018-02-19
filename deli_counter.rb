@@ -15,5 +15,6 @@ end
 def take_a_number(deli, name)
   if deli.length == 0
     deli << name
+    puts "Welcome, #{name}. You are number #{deli.length} in line."
   end
 end
