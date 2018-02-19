@@ -21,9 +21,8 @@ def now_serving(deli)
   if deli.length == 0
     puts "There is nobody waiting to be served!"
   else
-    deli.each do |name|
-      name = deli.first
-      puts "Currently serving #{name}."
-    end
+    name = deli.first
+    puts "Currently serving #{name}."
+    deli.shift
   end
 end
