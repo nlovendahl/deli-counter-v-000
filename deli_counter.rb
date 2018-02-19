@@ -5,4 +5,3 @@ def line(deli)
    puts "The line is currently: #{deli}"
   end
 end
-end
